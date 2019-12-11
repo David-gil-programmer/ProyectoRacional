@@ -23,5 +23,12 @@ public class AppRacional {
         k.imprimirConsola();
         racAleatorio.imprimirConsola();
         
-    }
+        // comparar z y k y mostrarlo por pantalla
+        if(Racional.igualdad(z, k)){
+            System.out.println("Son iguales");
+    }else{
+        System.out.println("No son iguales");
+        }
+}
+    
 }

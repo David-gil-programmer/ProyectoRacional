@@ -133,6 +133,10 @@ public class Racional {
         }while(r3.b==0);
         return r3;
     }
+
+    boolean igualdad(Racional k) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
