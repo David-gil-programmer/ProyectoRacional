@@ -54,6 +54,9 @@ public class Racional {
         }
         this.b = b;
     }
+    public void imprimirConsola(){
+        System.out.println("Numero racional "+a+"/"+b);
+    }
     
     
     
