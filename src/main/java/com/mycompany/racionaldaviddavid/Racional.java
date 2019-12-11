@@ -89,6 +89,7 @@ public class Racional {
         //this.b = this.b;
     }
 
+
     /*
     Método producto(Racional x), que guardará en los atributos del objeto que hace la 
     llamada la siguiente información: en el numerador almacenará el valor del producto 
@@ -98,5 +99,14 @@ public class Racional {
     public void multiplicar(Racional racional2){
         this.a *= racional2.a;
         this.b *= racional2.b;
+    }
+    
+
+    public static Racional division(Racional racional1, Racional racional2){
+        Racional r2  = new Racional ();
+        r2.a = racional1.a * racional2.b;
+        r2.b = racional1.b * racional2.a;
+        return r2;
+
     }
 }
