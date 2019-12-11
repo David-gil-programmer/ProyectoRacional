@@ -14,6 +14,8 @@ public class AppRacional {
         Racional z = new Racional(4, 5);
         Racional k = new Racional(3, 4);
         
-        
+        Racional racAleatorio;
+        racAleatorio = Racional.aleatorio();
+
     }
 }
