@@ -32,6 +32,7 @@ public class AppRacional {
         
         z.suma(k);
         System.out.println(z);
+        Racional.division(z,k);
         System.out.println(Racional.division(z,k));
         z.multiplicar(k);
         System.out.println(z);
