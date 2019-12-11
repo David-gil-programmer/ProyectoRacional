@@ -31,6 +31,7 @@ public class Racional {
             this.b = 1;
             System.out.println("Error: el denominador no puede ser 0 (se ha inicializado a 1)");
         }
+        this.b = b;  
         this.a = a;
     }
     

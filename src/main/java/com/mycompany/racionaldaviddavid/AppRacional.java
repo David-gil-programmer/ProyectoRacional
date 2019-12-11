@@ -17,5 +17,11 @@ public class AppRacional {
         Racional racAleatorio;
         racAleatorio = Racional.aleatorio();
 
+        // mostrar los tres resultados
+        
+        z.imprimirConsola();
+        k.imprimirConsola();
+        racAleatorio.imprimirConsola();
+        
     }
 }
