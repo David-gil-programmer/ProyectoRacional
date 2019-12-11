@@ -110,4 +110,14 @@ public class Racional {
         return r2;
 
     }
+    
+    /*
+    Método de clase igualdad(Racional x, Racional y) que devolverá si el Racional x 
+    es igual al Racional y, siguiendo la siguiente equivalencia
+    Numerador del 1º multiplicado por Denom del 2º = denomin del 1º por num del 2º
+    */
+    
+    public static boolean igualdad(Racional x, Racional y){
+        return x.a * y.b == x.b * y.a;
+    }
 }
