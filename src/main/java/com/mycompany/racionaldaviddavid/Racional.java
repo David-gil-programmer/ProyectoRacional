@@ -33,4 +33,16 @@ public class Racional {
         this.a = a;
     }
     
+    // Métodos get
+
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+    
+    
+    
 }
