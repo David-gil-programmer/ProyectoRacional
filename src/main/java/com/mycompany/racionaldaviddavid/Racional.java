@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package com.mycompany.racionaldaviddavid;
+import java.util.Random;
 
 /**
  *
@@ -120,4 +121,15 @@ public class Racional {
     public static boolean igualdad(Racional x, Racional y){
         return x.a * y.b == x.b * y.a;
     }
+    public static Racional aleatorio(){
+        Racional r3 = new Racional();
+        
+    Random aleatorioA = new Random();
+        r3.a = aleatorioA.nextInt();
+    Random aleatorioB = new Random();
+        r3.b = aleatorioB.nextInt()+1;
+        return r3;
+    }
+    
+    
 }
