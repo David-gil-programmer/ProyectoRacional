@@ -106,6 +106,7 @@ public class Racional {
         Racional r2  = new Racional ();
         r2.a = racional1.a * racional2.b;
         r2.b = racional1.b * racional2.a;
+        
         return r2;
 
     }
