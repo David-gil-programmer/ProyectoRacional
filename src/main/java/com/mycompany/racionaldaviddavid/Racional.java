@@ -79,5 +79,14 @@ public class Racional {
         this.a = this.a+racional2.a;
         //this.b = this.b;
     }
-    
+
+    public void resta(Racional racional2) {
+        if (this.b != racional2.b) {
+            this.a = this.a * racional2.b - this.b * racional2.a;
+            this.b = this.b * racional2.b;
+        }
+        this.a = this.a - racional2.a;
+        //this.b = this.b;
+    }
+
 }
