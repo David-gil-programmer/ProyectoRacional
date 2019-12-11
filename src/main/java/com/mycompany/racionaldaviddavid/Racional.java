@@ -57,7 +57,27 @@ public class Racional {
     public void imprimirConsola(){
         System.out.println("Numero racional "+a+"/"+b);
     }
+
+    @Override
+    public String toString() {
+        return a + "/" + b;
+    }
     
+    /*
+    B. Método suma(Racional x), que sumará al racional que llama al método el 
+    valor del número racional que recibe como argumento. 
+    Hay que tener en cuenta la siguiente información:
+    */
     
+    // relacional1.suma(relacional2)
+    
+    public void suma(Racional racional2){
+        if(this.b != racional2.b){
+            this.a = this.a*racional2.b + this.b*racional2.a;
+            this.b = this.b*racional2.b;
+        }
+        this.a = this.a+racional2.a;
+        //this.b = this.b;
+    }
     
 }
