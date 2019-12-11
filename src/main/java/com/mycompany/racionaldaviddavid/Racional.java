@@ -126,8 +126,10 @@ public class Racional {
         
     Random aleatorioA = new Random();
         r3.a = aleatorioA.nextInt();
+        do{
     Random aleatorioB = new Random();
-        r3.b = aleatorioB.nextInt()+1;
+        r3.b = aleatorioB.nextInt();
+        }while(r3.b==0);
         return r3;
     }
     
