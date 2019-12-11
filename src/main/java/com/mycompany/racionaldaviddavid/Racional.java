@@ -19,4 +19,18 @@ public class Racional {
         this.b = 1;
     }
     
+    /*
+    B. Constructor parametrizado. Se debe controlar que el denominador no es cero, 
+    en tal caso se asignará el valor 1 y se mostrará un mensaje por consola indicando 
+    que el denominador no es válido y se asigna el valor 1.
+    */
+    
+    public Racional(int a, int b){
+        if(this.b == 0){
+            this.b = 1;
+            System.out.println("Error: el denominador no puede ser 0 (se ha inicializado a 1)");
+        }
+        this.a = a;
+    }
+    
 }
