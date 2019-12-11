@@ -42,6 +42,18 @@ public class Racional {
     public int getB() {
         return b;
     }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public void setB(int b) {
+        if(b == 0){
+            System.out.println("Es incorrecto y se establece como valor 1");
+        this.b = 1;
+        }
+        this.b = b;
+    }
     
     
     
