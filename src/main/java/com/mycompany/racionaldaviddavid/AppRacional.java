@@ -30,10 +30,14 @@ public class AppRacional {
             System.out.println("No son iguales");
         }
         
+        System.out.println("El resultado de sumar " + z + " y " + k + " es: ");
         z.suma(k);
         System.out.println(z);
-        Racional.division(z,k);
+        
+        System.out.println("El resultado de dividir " + z + " entre " + k + " es: ");
         System.out.println(Racional.division(z,k));
+        
+        System.out.println("El resultado de multiplicar " + z + " por " + k + " es: ");
         z.multiplicar(k);
         System.out.println(z);
     }
