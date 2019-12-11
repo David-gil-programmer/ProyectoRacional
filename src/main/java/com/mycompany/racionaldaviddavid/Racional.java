@@ -89,4 +89,14 @@ public class Racional {
         //this.b = this.b;
     }
 
+    /*
+    Método producto(Racional x), que guardará en los atributos del objeto que hace la 
+    llamada la siguiente información: en el numerador almacenará el valor del producto 
+    de los numeradores y en el denominador almacenará el valor del producto de los denominadores.
+    */
+    
+    public void multiplicar(Racional racional2){
+        this.a *= racional2.a;
+        this.b *= racional2.b;
+    }
 }
